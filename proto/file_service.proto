@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package fileservice;
 
-option go_package = "github.com/alexeyvas94/my-grpc-file-service/api;fileservice";
+option go_package = "github.com/alexeyvas94/my-grpc-file-service/pkg/api;fileservice";
 
 service FileService {
   rpc Upload(stream FileUploadRequest) returns (FileUploadResponse);
