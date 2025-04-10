@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: scripts
+    ports:
+      - "50051:50051"
+    volumes:
+      - ./uploaded:/app/uploaded   # сохраняем файлы на хосте
+    env_file:
+      - .env

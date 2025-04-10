@@ -1,0 +1,58 @@
+# Binaries
+/bin/
+/build/
+/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependency directories
+vendor/
+
+# IDE files
+.vscode/
+.idea/
+
+# Generated files
+*.pb.go
+*.pb.gw.go
+*.pb.validate.go
+*.pb.json
+*.pb.yml
+
+# Proto build cache
+*.pb.*
+
+# Env files
+.env
+.env.*
+
+# Uploaded files (runtime-generated)
+uploaded/
+
+# Docker
+**/.docker/
+**/docker-compose.override.yml
+
+# Go-specific
+*.out
+coverage.out
+
+# Module cache (if you use local Go modules)
+go.sum
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
